@@ -69,7 +69,7 @@ export default class PhoneAuthTest extends Component {
       
     return (
       <View style={{ padding: 25 }}>
-        <Text>Enter phone number:</Text>
+        <Text style={{fontSize:20,color:'red',fontWeight:'bold'}}>Enter phone no:</Text>
         <TextInput
           autoFocus
           style={{ height: 40, marginTop: 15, marginBottom: 15 }}
